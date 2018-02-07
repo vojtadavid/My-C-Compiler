@@ -3,6 +3,7 @@ Muj pokus o velmi jednoduchy C kompilator. Pro lexikalni analyzu pouziva FLEX. P
 ```bash
 mkdir build && cd build
 cmake ..
-./mcc ../test\ C\ programs/sort.c
+make
+./mcc ../C_code_examples/sort.c 
 ./a.out
 ```
