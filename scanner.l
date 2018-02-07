@@ -2,7 +2,7 @@
 %option yylineno
 
 %{
-#include "../tab_keywords_flex.h"
+#include "tab_keywords_flex.h"
 
 %}
 
